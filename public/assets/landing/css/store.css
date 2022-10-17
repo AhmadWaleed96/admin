@@ -1,0 +1,57 @@
+#map {
+    height: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    #map {
+        height: 200px;
+    }
+}
+
+.nav-subtitle {
+    /* margin-left: 13px; */
+    color: #EF7822;
+}
+
+.form-container {
+    box-shadow: 4px 4px 10px rgba(65, 83, 179, 0.15);
+    border-radius: 8px;
+    border: 2px solid #b3bac3;
+    padding: 0.625rem;
+}
+
+.row-margin-top {
+    margin-top: 20px;
+}
+
+.submitBtn {
+    background: #EF7822;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    box-shadow: 3px 3px 8px rgb(65 83 179 / 15%);
+    border-radius: 4px;
+    margin-right: 16px;
+    margin-top: 40px !important;
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #EF7833;
+    border-color: #EF7833;
+}
+
+.btn-primary {
+    background-color: #EF7822;
+    border-color: #EF7822;
+}
+
+.cover-photo {
+    margin-left: 150px;
+}
+
+.restaurant-logo {
+    margin-left: 100px;
+    margin-right: 150px;
+}
